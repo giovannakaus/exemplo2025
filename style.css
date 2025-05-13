@@ -29,7 +29,7 @@
 
     .hamburger span {
       height: 4px;
-      background: white;
+      background: #000;
       border-radius: 2px;
     }
 
@@ -40,14 +40,14 @@
     }
 
     ul.menu li a {
-      color: white;
+      color: #000;
       text-decoration: none;
     }
 
     h1 {
       align-items: center;
       text-align: center;
-      color: aliceblue;
+      color: #000;
     }
 
     /* Responsivo */
