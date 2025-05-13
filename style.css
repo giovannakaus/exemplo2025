@@ -9,7 +9,7 @@ body{
 }
 
 nav {
-    background-color: lightpink;
+    background-color: #f3c8f3;
     padding: 10px 20px;
     position: relative;
 }
@@ -29,7 +29,7 @@ nav {
 
 .hamburguer span {
     height: 4px;
-    background: rgb(41, 50, 56);
+    background: #fff;
     border-radius: 2px;
 }
 
@@ -40,14 +40,14 @@ ul.menu {
 }
 
 ul.menu li a {
-    color: rgb(33, 31, 148);
+    color:#fff;
     text-decoration: none;
 }
 
 h1 {
     align-items: center;
     text-align: center;
-    color: rgb(171, 177, 184);
+    color: aliceblue;
 }
 
 /*Resposivo*/
