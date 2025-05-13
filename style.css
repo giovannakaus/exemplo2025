@@ -29,7 +29,7 @@ nav {
 
 .hamburguer span {
     height: 4px;
-    background: rgb(191, 219, 238);
+    background: rgb(41, 50, 56);
     border-radius: 2px;
 }
 
@@ -47,7 +47,7 @@ ul.menu li a {
 h1 {
     align-items: center;
     text-align: center;
-    color: rgb(70, 120, 185);
+    color: rgb(171, 177, 184);
 }
 
 /*Resposivo*/
