@@ -18,7 +18,7 @@ nav {
     display: none;
 }
 
-.hamburguer {
+.hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -27,7 +27,7 @@ nav {
     justify-content: space-between;
 }
 
-.hamburguer span {
+.hamburger span {
     height: 4px;
     background: rgb(191, 219, 238);
     border-radius: 2px;
