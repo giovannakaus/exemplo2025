@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 /*inicio do cabeçalho*/
+body{
+    font-family: Arial, sans-serif;
+}
+
 nav {
     background-color: lightpink;
     padding: 10px 20px;
@@ -25,7 +29,7 @@ nav {
 
 .hamburguer span {
     height: 4px;
-    background: rgb(168, 202, 224);
+    background: rgb(191, 219, 238);
     border-radius: 2px;
 }
 
@@ -36,39 +40,37 @@ ul.menu {
 }
 
 ul.menu li a {
-    color: rgb(85, 18, 60);
+    color: rgb(33, 31, 148);
     text-decoration: none;
 }
+
+h1 {
+    align-items: center;
+    text-align: center;
+    color: rgb(70, 120, 185);
+}
+
+/*Resposivo*/
+@media (max-width:768px) {
+    .hamburger {
+        display:flex;
+     }
+
+     ul.menu {
+        display: none;
+        flex-direction: column;
+        background: #040661;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+     }
+
+     .menu-toggle:checked
+     +.hamburger +ul.menu {
+        display:flex;
+     }
+
+      }
 /*fim cabeçalho*/
-
-body {
-margin: 0;
-font-family: Arial, sans-serif;
-}
-
-header {
-display: flex;
-align-items: center;
-justify-content: space-between;
-background-color: #131450;
-color: rgba(102, 150, 221, 0.37);
-padding: 10px 20px;
- }
-
-
-.logo { font-size: 1.5rem;
-}
-
-
-#menu-toggle {
-display: none;
- }
-
-
-.menu-icon {
-display: flex;
-flex-direction: column;
-width: 30px;
-cursor: pointer;
-}
 
