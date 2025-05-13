@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing:border-box;
 }
-
+/*inicio do cabeçalho*/
 nav {
     background-color: lightpink;
     padding: 10px 20px;
@@ -39,3 +39,36 @@ ul.menu li a {
     color: rgb(85, 18, 60);
     text-decoration: none;
 }
+/*fim cabeçalho*/
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #131450;
+color: rgba(102, 150, 221, 0.37);
+padding: 10px 20px;
+ }
+
+
+.logo { font-size: 1.5rem;
+}
+
+
+#menu-toggle {
+display: none;
+ }
+
+
+.menu-icon {
+display: flex;
+flex-direction: column;
+width: 30px;
+cursor: pointer;
+}
+
