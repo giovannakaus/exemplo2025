@@ -1,76 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
-}
-/*inicio do cabeçalho*/
-body{
-    font-family: Arial, sans-serif;
-}
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-nav {
-    background-color: #f3c8f3;
-    padding: 10px 20px;
-    position: relative;
-}
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-.menu-toggle {
-    display: none;
-}
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+      position: relative;
+    }
 
-.hamburguer {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    justify-content: space-between;
-}
+    .menu-toggle {
+      display: none;
+    }
 
-.hamburguer span {
-    height: 4px;
-    background: #fff;
-    border-radius: 2px;
-}
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      width: 30px;
+      height: 25px;
+      justify-content: space-between;
+    }
 
-ul.menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
+    .hamburger span {
+      height: 4px;
+      background: white;
+      border-radius: 2px;
+    }
 
-ul.menu li a {
-    color:#fff;
-    text-decoration: none;
-}
+    ul.menu {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
 
-h1 {
-    align-items: center;
-    text-align: center;
-    color: aliceblue;
-}
+    ul.menu li a {
+      color: white;
+      text-decoration: none;
+    }
 
-/*Resposivo cabeçalho*/
-@media (max-width:768px) {
-    .hamburguer {
-        display:flex;
-     }
+    h1 {
+      align-items: center;
+      text-align: center;
+      color: aliceblue;
+    }
 
-     ul.menu {
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .hamburger {
+        display: flex;
+      }
+
+      ul.menu {
         display: none;
         flex-direction: column;
-        background: #040661;
+        background: #333;
         position: absolute;
         top: 60px;
         left: 0;
         width: 100%;
-     }
-
-     .menu-toggle:checked
-     +.hamburguer +ul.menu {
-        display:flex;
-     }
-
       }
+
+      .menu-toggle:checked + .hamburger + ul.menu {
+        display: flex;
+      }
+    }
 /*fim cabeçalho*/
 
