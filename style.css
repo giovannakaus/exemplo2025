@@ -52,7 +52,7 @@ h1 {
 
 /*Resposivo*/
 @media (max-width:768px) {
-    .hamburger {
+    .hamburguer {
         display:flex;
      }
 
