@@ -50,7 +50,7 @@ h1 {
     color: aliceblue;
 }
 
-/*Resposivo*/
+/*Resposivo cabeçalho*/
 @media (max-width:768px) {
     .hamburguer {
         display:flex;
