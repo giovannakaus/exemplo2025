@@ -72,7 +72,7 @@
     }
 
     .cabecalho {
-    background-image: url('img/comida.jpg'); /* caminho da imagem */
+    background-image: url('img/planta.jpeg'); /* caminho da imagem */
     background-size: cover; /* cobre todo o espaço do header */
     background-position: center;
     height: 250px; /* ou o valor que desejar */
