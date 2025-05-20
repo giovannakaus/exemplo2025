@@ -124,5 +124,32 @@
   color: #333;
   text-align: justify;
 }
+
+
+.bloco-alimentos {
+  background-color: #ffffff;
+  padding: 50px 30px;
+  max-width: 1000px;
+  margin: 40px auto;
+  border-left: 8px solid #4caf50; /* destaque com verde */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.bloco-alimentos h2 {
+  font-size: 30px;
+  color: #2e7d32;
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.bloco-alimentos p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  text-align: justify;
+  margin-bottom: 20px;
+}
  /*fim cabeçalho*/
 
