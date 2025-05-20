@@ -70,5 +70,15 @@
         display: flex;
       }
     }
+
+    .cabecalho {
+    background-image: url('img/alimentos.jpeg'); /* caminho da imagem */
+    background-size: cover; /* cobre todo o espaço do header */
+    background-position: center;
+    height: 250px; /* ou o valor que desejar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*fim cabeçalho*/
 
