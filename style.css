@@ -9,7 +9,7 @@
     }
 
     nav {
-      background-color: #a9db9c;
+      background-color: #82e669;
       padding: 10px 20px;
       position: relative;
     }
@@ -29,7 +29,7 @@
 
     .hamburger span {
       height: 4px;
-      background: #00000000;
+      background: #0a3f15;
       border-radius: 2px;
     }
 
