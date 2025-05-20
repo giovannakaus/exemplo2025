@@ -174,5 +174,37 @@
   color: #444;
   text-align: justify;
 }
+
+.bloco-saude {
+  padding: 40px 20px;
+  background-color: #fdfdfd;
+}
+
+.bloco-saude h2 {
+  font-size: 28px;
+  color: #2d572c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bloco-saude p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.imagem-central {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.imagem-central img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
  /*fim cabeçalho*/
 
