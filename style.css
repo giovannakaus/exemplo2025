@@ -180,31 +180,44 @@
   background-color: #fdfdfd;
 }
 
-.bloco-saude h2 {
-  font-size: 28px;
-  color: #2d572c;
-  margin-bottom: 20px;
-  text-align: center;
+.saude-campo {
+  background-color: #f4f9f3;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.bloco-saude p {
-  font-size: 18px;
+.saude-campo h2 {
+  color: #3e754b;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.conteudo-saude {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.texto-saude {
+  flex: 1;
+  max-width: 600px;
+  text-align: justify;
+  font-size: 16px;
   line-height: 1.7;
   color: #333;
-  margin-bottom: 20px;
-  text-align: justify;
 }
 
-.imagem-central {
+.imagem-saude {
+  flex: 1;
+  max-width: 400px;
   text-align: center;
-  margin: 30px 0;
 }
 
-.imagem-central img {
+.imagem-saude img {
   width: 100%;
-  max-width: 1000px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
- /*fim cabeçalho*/
-
