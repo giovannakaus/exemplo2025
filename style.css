@@ -226,6 +226,12 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+.plantar-alimentos {
+  background-color: #f0fdf4;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 .plantar-alimentos h2 {
   color: #3a7e49;
   font-size: 26px;
@@ -233,12 +239,29 @@
   margin-bottom: 30px;
 }
 
-.plantar-alimentos .bloco-texto {
-  max-width: 750px;
+.container-imagem-texto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
-.plantar-alimentos p {
+.imagem-lateral {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.bloco-texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.bloco-texto p {
   font-size: 16.5px;
   line-height: 1.8;
   margin-bottom: 15px;
