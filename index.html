@@ -13,20 +13,10 @@
 
      </header>
 
-  <nav>
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-    
-    <ul class="menu">
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Serviços</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
+    <nav class="nav-botoes">
+  <button onclick="scrollToSection('alimentos')">🥗 Alimentos</button>
+  <button onclick="scrollToSection('saude')">❤️ Saúde</button>
+  <button onclick="scrollToSection('cultivo')">🌱 Cultivo</button>
   </nav>
   
   <main>
@@ -44,7 +34,7 @@
     </p>
   </div>
 
- <section class="bloco-alimentos">
+ <section id="alimentos"  class="bloco-alimentos">
   <h2>Você sabe de onde vêm seus alimentos?</h2>
 
   <p>
@@ -76,7 +66,7 @@
   </div>
 </section>
 
-<section class="saude-campo">
+<section id="saude"  class="saude-campo">
   <h2>Como os alimentos do campo contribuem para a saúde humana</h2>
 
   <div class="bloco-texto">
@@ -113,7 +103,7 @@
 
 </section>
 
-<section class="plantar-alimentos">
+<section id="cultivo"  class="plantar-alimentos">
   <h2>Como cultivar seus próprios alimentos</h2>
 
   <div class="container-horizontal">
@@ -143,5 +133,14 @@
 <p>&copy; 2025 Projeto Agrinho - Todos os direitos reservados</p>
 </footer>
 
-</body>
+<script>
+  function scrollToSection(id) {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+ 
+ </script> 
+ </body>
 </html>
