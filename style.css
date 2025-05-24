@@ -226,6 +226,12 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
+.plantar-alimentos {
+  background-color: #f3fcf3;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 .plantar-alimentos h2 {
   color: #3a7e49;
   font-size: 28px;
@@ -233,21 +239,24 @@
   margin-bottom: 30px;
 }
 
-.container-imagem-texto {
+.container-horizontal {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: center;
-  gap: 30px;
-  max-width: 1200px;
-  margin: 0 auto;
+  gap: 40px;
 }
 
-.imagem-lateral {
+.imagens-laterais {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.imagens-laterais img {
   width: 280px;
   max-width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bloco-texto {
@@ -256,14 +265,15 @@
   max-width: 600px;
 }
 
-.bloco-texto ol {
-  padding-left: 20px;
+.bloco-texto ul {
+  list-style: none;
+  padding-left: 0;
   color: #333;
 }
 
 .bloco-texto li {
-  font-size: 16.5px;
-  margin-bottom: 15px;
+  font-size: 17px;
+  margin-bottom: 16px;
   line-height: 1.6;
   text-align: justify;
 }
