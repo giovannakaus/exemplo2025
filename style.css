@@ -220,3 +220,28 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
 }
 
+.plantar-alimentos {
+  background-color: #f0fdf4;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.plantar-alimentos h2 {
+  color: #3a7e49;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.plantar-alimentos .bloco-texto {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.plantar-alimentos p {
+  font-size: 16.5px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: justify;
+}
