@@ -304,6 +304,17 @@
   background-color: #388e3c;
 }
 
+.rodape {
+  background-color: #2e7d32; /* Verde escuro suave */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 3px solid #81c784; /* Verde claro */
+}
+
 .rodape a {
   color: white;
   margin: 0 10px;
