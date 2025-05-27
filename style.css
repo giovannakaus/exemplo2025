@@ -303,3 +303,13 @@
 .nav-botoes button:hover {
   background-color: #388e3c;
 }
+
+.rodape a {
+  color: white;
+  margin: 0 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.rodape a:hover {
+  color: #c8e6c9;
+}
