@@ -194,19 +194,20 @@
 .conteudo-saude {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 30px;
+  align-items: flex-start;
 }
 
 .imagem-saude {
-  width: 100%;
-  max-width: 300px;
+  flex: 1 1 300px; /* Cresce e encolhe com mínimo de 300px */
+  max-width: 400px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
 
 .texto-saude {
-  flex: 1;
+  flex: 2 1 400px;
   font-size: 16px;
   line-height: 1.7;
   color: #333;
@@ -314,4 +315,15 @@
 }
 .rodape a:hover {
   color: #c8e6c9;
+}
+
+@media (max-width: 768px) {
+  .conteudo-saude {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagem-saude, .texto-saude {
+    max-width: 100%;
+  }
 }
