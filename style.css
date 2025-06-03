@@ -216,62 +216,54 @@
   color: #333;
 }
 
-.plantar-alimentos {
+.cultivo-section {
   background-color: #f0fdf4;
-  padding: 40px 20px;
-  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  width: 90%;
+  max-width: 1000px;
 }
 
-.plantar-alimentos {
-  background-color: #f3fcf3;
-  padding: 40px 20px;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.plantar-alimentos h2 {
-  color: #3a7e49;
-  font-size: 28px;
+.cultivo-section h2 {
   text-align: center;
-  margin-bottom: 30px;
+  color: #2e7d32;
+  margin-bottom: 20px;
 }
 
-.container-horizontal {
+.cultivo-container {
   display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
 }
 
-.imagens-laterais {
+.cultivo-imagens {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-
-.imagens-laterais img {
-  width: 280px;
-  max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.bloco-texto {
   flex: 1;
-  min-width: 300px;
-  max-width: 600px;
 }
 
-.bloco-texto ul {
+.cultivo-imagens img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cultivo-lista {
+  flex: 1;
   list-style: none;
-  padding-left: 0;
-  color: #333;
+  padding: 0;
+  margin: 0;
 }
 
-.bloco-texto li {
-  font-size: 17px;
-  margin-bottom: 16px;
-  line-height: 1.6;
-  text-align: justify;
+.cultivo-lista li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .nav-botoes {
