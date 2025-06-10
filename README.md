@@ -1,2 +1,2 @@
 # exemplo2025
-desenvolvimento com html e css
+Desenvolvimento com html e css sobre agricultura e alimentação.
